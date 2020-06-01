@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.11.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaymentGateway.IranKish\PaymentGateway.IranKish.csproj" />
+    <ProjectReference Include="..\PaymentGateway.Saman\PaymentGateway.Saman.csproj" />
+    <ProjectReference Include="..\PaymentGateway.Zarinpall\PaymentGateway.Zarinpall.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dependencies\" />
+  </ItemGroup>
+
+</Project>
